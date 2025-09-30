@@ -41,7 +41,7 @@
 				<a href="https://www.facebook.com/akashpandeyjr"><i class='bx bxl-facebook'></i></a>
 				<a href="#"><i class='bx bxl-twitter' ></i></a>
 				<a href="https://www.linkedin.com/in/akashpandeyjr"><i class='bx bxl-linkedin' ></i></a>
-				<a href="#"><i class='bx bxl-github' ></i></a>
+				<a href="https://github.com/akashpandeyjr"><i class='bx bxl-github' ></i></a>
 			</div>
 			<a href="#about" class="btn">About Me</a>
 		</div>
@@ -54,7 +54,7 @@
 	<!--------About---->
 	<section class="about" id="about">
 		<div class="about-img">
-			<img src="img/about.jpg">
+			<img src="img/about.png">
 		</div>
 
 		<div class="about-text">
@@ -169,30 +169,31 @@
 	</section>
 
 	<!--------contact---->
-	<section class="contact" id="contact">
-  <div class="center">
-    <h3>Contact Me</h3>
-    <p>Fill out the form below to get in touch</p>
-  </div>
-  
-  <div class="action">
-    <form action="https://formspree.io/f/mjkawjlw" method="POST">
-      
-      <input type="text" name="name" placeholder="Enter your full name" required>
-      <input type="email" name="email" placeholder="Enter your email" required>
-      <input type="tel" name="phone" placeholder="Enter your phone number" required>
-      <textarea name="message" rows="5" placeholder="Write your message here..." required></textarea>
+	<section id="contact">
+  <h2>Contact Me</h2>
+  <form action="https://formspree.io/f/yourFormID" method="POST">
+    
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
-     <!---- <div class="checkbox">
-        <input type="checkbox" id="agree" name="agree" required>
-        <label for="agree">I agree to be contacted regarding my inquiry</label>
-      </div>--->
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
-      <input type="submit" value="Submit">
-	
-    </form>
-  </div>
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+    <div>
+      <input type="checkbox" id="agree" name="agree" required>
+      <label for="agree">I agree to be contacted regarding my inquiry</label>
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
 </section>
+
 
 	<!--------ends---->
 	<div class="ends">
